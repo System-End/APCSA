@@ -9,11 +9,11 @@ public class U2_L1_Activity_Two {
 
         System.out.println("The current order is " + order);
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println(
             "I want to eat something else, what do you want to eat?"
         );
-        order = scanner.nextLine();
+        order = scan.nextLine();
 
         System.out.println("The order has changed to " + order);
     }

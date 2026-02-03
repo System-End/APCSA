@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class U2_L1_Activity_One {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("What is your name?");
-        String name = scanner.nextLine();
+        String name = scan.nextLine();
 
         System.out.println("What is your favorite number?");
-        int favoriteNumber = scanner.nextInt();
+        int favoriteNumber = scan.nextInt();
 
         System.out.println(
             "Your name is " +
