@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class U7_L2_Activity_Three {
+
+    public static ArrayList<Integer> getEvens(ArrayList<Integer> vals) {
+        ArrayList<Integer> evens = new ArrayList<Integer>();
+
+        for (int i = 0; i < vals.size(); i++) {
+            if (vals.get(i) % 2 == 0) {
+                evens.add(vals.get(i));
+            }
+        }
+
+        return evens;
+    }
+}
